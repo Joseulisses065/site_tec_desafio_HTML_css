@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Idroid";
+    src: url("../fontes/idroid.otf") format("opentype");
+}
+@font-face {
+    font-family: "coolvetica";
+    src: url("../fontes/coolvetica/coolvetica\ compressed\ rg.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: "android";
+    src: url("../fontes/idroid.otf") format("opentype");
+}
+
+
+/* cabeça */
+header{
+    background-image: linear-gradient(to top ,#1E6A40,#3BD47F);
+    padding: 10px 10px 0px 10px;
+    color: white;
+}
+header>h1#titulo{
+    text-align: center;
+    font-family: coolvetica,Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: normal;
+    margin: auto;
+}
+header>p#subtitulo{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif, Times, serif,sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 10px;
+    padding:10px
+}
+header>nav{
+    color: wh;
+    background-color:#1a5c384d;
+    padding:10px;
+    margin:0px;
+}
+header>nav>a.op{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+header>nav>a.op:hover{
+    background-color: #3BD47F;
+    padding:10px;
+    border-radius: 5px;
+}
+
+
+
+/* corpo */
+body{
+    margin: 0px;
+    background-color: #3BD47F;
+}
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding:10px;
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin:auto;
+}
+main>section>h1{
+    font-family: android;
+    background-image: linear-gradient(to right, #5ce298,#fcfcfc);
+    
+}
+main>section>h2{
+    font-family: android;
+    background-image: linear-gradient(to right, #5ce298,#fcfcfc);
+
+}
+/* video */
+section#conteudo>section.video{
+    width: 100%;
+    padding-bottom: 50%;
+    position: relative;
+    
+   
+
+}
+section#conteudo>section.video>iframe{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+/* imagen */
+
+section#conteudo>section.imagen{
+    margin:auto
+    
+    
+   
+}
+section.imagen>picture>img{
+    
+    width: 100%;
+}
+/* quadro */
+section#quadro{
+    background-color:#9ee7bfa8 ;
+    border-radius: 10px;
+    margin:10px;
+    padding:15px 5px 5px 5px;
+    position: relative;
+    
+}
+section#quadro>h3{
+    border-radius: 10px 10px 0px 0px;
+    background-color:#1E6A40;
+    position: absolute;
+    top: -5%;
+    left: 0%;
+    width: 100%;
+    color: white;
+    
+}
+div#lista{
+    display: flex;
+}
+div#lista>ul{
+    margin: auto;
+    list-style-type: "🗸 ";    
+}
+strong{
+    color: green;
+}
+main>section#conteudo>p>a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+main>section#conteudo>p>a::after{
+    
+    content: "🔗";
+}
+
+/* rodape */
+footer{
+    text-align: center;
+}
+
